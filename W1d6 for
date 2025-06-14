@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i;
+    for(i=0;i<3;i++)
+    {cout<<"GFG "<<i<<"\n";
+    cout<<i<<"\n";}
+    return 0;
+    
+  
+}
