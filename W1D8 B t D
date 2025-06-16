@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{   int n;
+    cin>>n;
+    int lastdigit=0;
+    int val =0;
+    int base=1;
+    while(n>0)
+     {lastdigit=(n%10);
+       val=val+(lastdigit*base);
+       base=base*2;
+       n=n/10;}
+       cout<<val;
+    return 0;
+}
+      
