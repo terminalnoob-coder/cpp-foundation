@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int myMax(int a,int b)
+ {return (a>b)?a:b;}
+int myMax(int a,int b,int c)
+{return myMax(myMax(a,b),c);}
+int main()
+{cout<<myMax(1,2,3)<<"\n";
+ cout<<myMax(10,20)<<"\n";
+ return 0;}
