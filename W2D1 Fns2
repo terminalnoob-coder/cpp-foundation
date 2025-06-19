@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+void printDetails(int id=00,string name ="NA",string address="NA")
+     {cout<<"ID is "<<id<<"\n";
+      cout<<"Name is "<<name<<"\n";
+      cout<<"Address is "<<address<<"\n";}
+      int main()
+      {printDetails(201,"Aslam","Anantnag");
+       cout<<"\n";
+       printDetails(300,"Afaq");
+       cout<<"\n";
+       printDetails(100);
+       cout<<"\n";
+       return 0;}
