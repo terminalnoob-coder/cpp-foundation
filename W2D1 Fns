@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int getMin(int x,int y)
+{if(x>y)
+  return y;
+  else
+  return x;
+  }
+int main()
+{
+  int x,y;
+  cin>>x>>y;
+  
+  cout<<getMin(x,y);
+  return 0;
+}
