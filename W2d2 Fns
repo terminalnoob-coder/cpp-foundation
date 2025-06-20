@@ -1,0 +1,11 @@
+int firstDigit(int n) {
+    // code here
+    int k=1;
+    int d=0;
+    int x=n;
+    while(k>0)
+    {k=x/10;
+     d++;
+     x=x/10;}
+     return (n/(pow(10,d-1)));
+}
