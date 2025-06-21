@@ -1,0 +1,11 @@
+ #include<iostream>
+ using namespace std;
+ void mod(int &x){
+   x=x+5;
+ }
+ int main(){
+   int x=2;
+   mod(x);
+   cout<<x;
+   return 0;
+ }
